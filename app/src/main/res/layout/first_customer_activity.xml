@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    >
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/addCustomer"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Add Customer"
+        android:layout_marginTop="40dp"
+        android:theme="@style/myButton"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/viewCustomers"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="View Customers"
+        android:layout_marginTop="20dp"
+        android:drawable="@drawable/button1"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+
+        android:layout_height="wrap_content"
+        android:text="View Customer Details"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/button5"
+        android:layout_width="200dp"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:text="Total Amount Details"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+</LinearLayout>
